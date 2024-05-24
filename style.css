@@ -1,0 +1,56 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Stack elements vertically */
+    height: 500px;
+    background-color: rgb(90, 127, 207);
+    margin-top: 0px;
+    cursor: pointer;
+    /*to make text unselectable*/
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#text-container {
+    text-align: center;
+}
+
+#text, #text2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 70px;
+}
+
+#text2 {
+    font-size: 50px;
+    margin-top: 0px;
+}
+
+#results{
+    list-style: none;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    margin-top: 25px;
+}
+
+#results li {
+    margin-bottom: 15px;
+}
+
+#restart{
+    margin-left: 95%;
+    height: 40px;
+    width: 60px;
+    cursor: pointer;
+}
